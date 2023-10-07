@@ -12,6 +12,8 @@
         padding: 0;
         overflow: hidden;
         background-color:dimgrey;
+        border: 2px solid dimgrey;
+        border-radius: 2px;
     }
 
     li {
@@ -26,6 +28,7 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+    
     }
     li a:hover {
         background-color: #111;
