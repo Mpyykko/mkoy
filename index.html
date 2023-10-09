@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <header> 
-        <h1>Mikon Kuljetus Oy Ab</h1>
+        <h1 id="otsikko">Mikon Kuljetus Oy Ab</h1>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik"> 
         <title>Etusivu</title>
     </header>
@@ -19,7 +19,7 @@
 
     </style>
     <link rel="stylesheet" href="tyylit.css">
-        <ul>
+        <ul class="navigointi">
             <li><a class="active" href="#etusivu.html">Etusivu</a></li>
             <li><a href="kalusto.html">Kalustonhallinta</a></li>
             <li><a href="vuokraus.html">Vuokraus</a></li>
@@ -41,14 +41,13 @@
             height: auto; 
         }
         </style>
-    </div>
-
-    <button type="button" align-items: center; class="custom-button" onclick="tulostaViesti()">Pyydä kuljetustarjous</button>
+    
+    <button type="button" class="painike" onclick="tulostaViesti()">Pyydä kuljetustarjous</button>
     <script>
         function tulostaViesti() {
             alert("Tää on vielä vaiheessa :)");
         }
     </script>
-    
+    </div>
 </body>
 </html>

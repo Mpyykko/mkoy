@@ -1,4 +1,4 @@
- h1{ 
+ #otsikko{ 
     font-family:Rubik, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     text-shadow: 2px 2px 2px #686565;
@@ -6,7 +6,7 @@
 }
 
 
-ul {
+.navigointi {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,13 +14,30 @@ ul {
     background-color: rgba(105, 105, 105, 0.6);
     border: 2px solid #bbb;
     border-radius: 2px;
+
+
 }
 
+.normilista{
+    list-style-type: number;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(105, 105, 105, 0.6);
+    border: 2px solid #bbb;
+    border-radius: 2px;
+    
+
+
+
+
+}
 li {
 
     float: left;
-}   
-
+    border-right: none;
+   
+}
     
 li a {
     display: block;
@@ -34,10 +51,7 @@ li a:hover {
     background-color: #111;
 }
 
-li {
-        
-    border-right: none;
-}
+
 
 li:last-child {
     border-right: none;
@@ -46,16 +60,14 @@ li:last-child {
     
 li a:hover:not(.active) {
     background-color: #111;
-} 
-      
-.active {
-    background-color:rgb(96, 95, 95)
+ 
       
 }
 
 p,h2,h3,h4,h5,h6,ul,ol,dl{
     font-family:Rubik, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
 
 
 .keskitetty {
@@ -66,7 +78,7 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
 
 
 
-.custom-button {
+.painike {
     background-color: rgba(105, 105, 105, 0.6);
     color:white;
     text-align: center;
@@ -80,8 +92,12 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
     border: 2px solid #bbb;
     border-radius: 5px; 
 }
-.custom-button:hover {
+.painike:hover {
     background-color: #111;
 
 }
 
+.active {
+    background-color:rgb(96, 95, 95)
+      
+}
