@@ -11,58 +11,49 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(105, 105, 105, 0.6);
+    background-color: rgba(75, 74, 74, 0.6);
     border: 2px solid #bbb;
     border-radius: 2px;
 
-
 }
+.navigointi li a{
 
-.normilista{
-    list-style-type: number;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(105, 105, 105, 0.6);
-    border: 2px solid #bbb;
-    border-radius: 2px;
-    
-
-
-
-
-}
-li {
-
-    float: left;
-    border-right: none;
-   
-}
-    
-li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-    
+
+.navigointi li{
+
+    float: left;
+    border-right: none;
+}
+.navigointi
 li a:hover {
     background-color: #111;
 }
-
-
-
-li:last-child {
+.navigointi li:last-child {
     border-right: none;
 }
    
-    
-li a:hover:not(.active) {
+.navigointi li a:hover:not(.active) {
     background-color: #111;
  
       
 }
+
+.normilista{
+    list-style-type: none;
+
+    
+
+
+}
+    
+     
+
 
 p,h2,h3,h4,h5,h6,ul,ol,dl{
     font-family:Rubik, Cochin, Georgia, Times, 'Times New Roman', serif
@@ -70,11 +61,16 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
 
 
 
+.keskitetty_lista{
+    margin:0 auto;
+    justify-content: center;
+    text-align: center
+}
 .keskitetty {
     text-align: center;
     align-items: center;
+    margin:0 auto;
 }
-
 
 
 
@@ -85,7 +81,6 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
     font-size: 16px;
     font-family: Rubik;
     display: block;
-    margin: 0;
     padding: 10px 14px;
     overflow: hidden;
     text-decoration: none;
