@@ -96,3 +96,11 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
 .vinossa {
     transform: rotate(-5deg);
 }
+.kohta {
+    position: relative;
+}
+.oikea_yla {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
