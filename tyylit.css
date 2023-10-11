@@ -47,8 +47,6 @@ li a:hover {
 .normilista{
     list-style-type: none;
 
-    
-
 
 }
     
@@ -62,14 +60,14 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
 
 
 .keskitetty_lista{
-    margin:0 auto;
+
     justify-content: center;
     text-align: center
 }
 .keskitetty {
     text-align: center;
     align-items: center;
-    margin:0 auto;
+
 }
 
 
