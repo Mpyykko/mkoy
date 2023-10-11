@@ -72,7 +72,7 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
 
 
 .painike {
-    background-color: rgba(105, 105, 105, 0.6);
+    background-color: rgba(75, 74, 74, 0.6);
     color:white;
     text-align: center;
     font-size: 16px;
@@ -92,4 +92,7 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
 .active {
     background-color:rgb(96, 95, 95)
       
+}
+.vinossa {
+    transform: rotate(-10deg);
 }
