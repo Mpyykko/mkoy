@@ -14,7 +14,6 @@
     background-color: rgba(75, 74, 74, 0.6);
     border: 2px solid #bbb;
     border-radius: 2px;
-
 }
 .navigointi li a{
 
@@ -99,8 +98,21 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
 .kohta {
     position: relative;
 }
-.oikea_yla {
-    position: absolute;
+.alaosa{
+    background-color: rgb(55, 53, 53);
+    color:white;
+    text-align: center;
+    position: sticky;
     bottom: 0;
-    right: 0;
+    width: 100%;
+}
+.infoalaosa{
+    background-color: rgb(55, 53, 53);
+    color:white;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
