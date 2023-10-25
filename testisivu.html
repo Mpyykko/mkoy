@@ -1,70 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <header>
-        
-        <div class="kohta">
-            <img src="kuvat/eco3.png" width="100px" alt="eco">
-        </div>
-        <h1 id="otsikko">Mikon Kuljetus Oy</h1>
-        <style>header{
-            background-image: url("kuvat/caddy_etu.png");
-            background-attachment: scroll;
-            padding: 20px;
-            opacity: 0.4;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<header> 
+    <h1 id="otsikko">Jaden Jäde</h1>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik"> 
+    <title>Jätskiä</title>
+</header>
+<style>
+body{   
+    background-color:lightgray;
+    background-size: 100% auto;
+    background-size: cover;
+    background-image: url("kuvat/valko.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
 
-        </style>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
-        <title>Testisivu</title>
-    </header>
-
-    <style>
-        body{   
-        background-color:lightgray;
-        background-size: 100% auto;
-        background-size: cover;
-        background-image: url("kuvat/tausta5.jpg");
-        background-attachment: scroll;
-        background-repeat: no-repeat;
-        }
-    </style>
-    <link rel="stylesheet" href="tyylit.css">
-    <ul class="navigointi">
-        <li><a href="index.html">Etusivu</a></li>
-        <li><a href="kalusto.html">Kalustonhallinta</a></li>
-        <li><a href="vuokraus.html">Vuokraus</a></li>
-        <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
-        <li><a href="info.html">Info</a></li>
-        <li><a class="active" href="#yrittajyys.html">Yrittäjyyskurssi</a></li>
-    </ul>
+</style>
+<link rel="stylesheet" href="tyylit.css">
+<ul class="navigointi">
+    <li><a class="active" href="#etusivu.html">Etusivu</a></li>
+    <li><a href="kalusto.html">Valikoima</a></li>
+    <li><a href="vuokraus.html">Herkkuja</a></li>
+    <li><a href="info.html">Info</a></li>
+</ul> 
     
 </head>
 
 <body>
 
+<div class="keskitetty">
+    <h2>Täyden palvelun kuljetusliike!</h2>
+    <p>Olemme äskettäin perustettu moderni kuljetusliike.</p>
+    <p>Kuljemme sähköllä joten kalustomme on täysin päästötöntä. Käytämme kaluston lataukseen uusiutuvaa energiaa.</p>
+    <p>Kauttamme saat kokonaisvaltaisesti kaikki tarvitsemasi logistiikkapalvelut.</p>
+   
+    <img src="kuvat/m2.png" alt="mese">
+    <style>
+    img {
+        max-width: 100%; 
+        height: auto; 
+    }
+    </style>
+</div> 
+<div class="keskitetty">
+    <h4>Kuljetuspalvelumme</h4>
+    <p>Kappaletavarakuljetukset</p>
+    <p>Kodinkoneet</p>
+    <p>Muutot</p>
+</div>
+<div class="keskitetty">
+    <h4>Muut palvelut</h4>
+    <p>Kuljetuksen suunnittelu</p>
+    <p>Ajojärjestely</p>
+    <p>Kaluston optimointi</p>
+</div>
+
     
-
-
-
-<ol class="yrittajyyslista">
-    <li><a href="eka">Tehtävä</a></li>
-    <li><a href="toka">Tehtävä</a></li>
-    <li><a href="kolmas">Tehtävä</a></li>
-    <li><a href="neljäs">Tehtävä</a></li>
-    <li><a href="viides">Tehtävä</a></li>
-    <li><a href="kuudes">Tehtävä</a></li>
-    <li><a href="seitsemäs">Tehtävä</a></li>
-</ol>
-
-
+    <button type="button" class="painike" onclick="tulostaViesti()">Tilaa tästä jätskiä!</button>
+    <script>
+        function tulostaViesti() {
+            alert("Nam nam :)");
+    }
+    </script>
 </body>
 <footer>
     <div class="alaosa">
-        <p>Mikon Kuljetus Oy Ab</p>
-        <p>Vauhtitie 69</p>
+        <p>Jaden jäde Oy</p>
+        <p>Hattaratie 1</p>
         <p>00100 Helsinki</p>
         <p>Y-tunnus:1234567-8</p>
     </div>
