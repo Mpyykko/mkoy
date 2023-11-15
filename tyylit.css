@@ -119,7 +119,8 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
     text-align: center;
     position: absolute;
     width: 100%;
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: 'Courier New', Courier, monospace;
+    bottom:0;
 }
 .painike_jade {
     background-color: rgba(206, 7, 7, 0.6);

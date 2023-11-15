@@ -1,58 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<header> 
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik"> 
-    <title>Jätskiä</title>
-</header>
-<style>
-body{   
-    background-color:rgb(164, 122, 162);
-    background-size: 100% auto;
-    background-size: cover;
-    background-image: url("kuvat/pinkki.jfif");
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-}
 
-</style>
-<link rel="stylesheet" href="tyylit.css">
-<ul class="navigointi_jade">
-    <li><a href="index.html">Etusivu</a></li>
-    <li><a href="jade.html">Jäde</a></li>
-    <li><a class="active" href="valikoima.html">Valikoima</a></li>
-</ul> 
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik"> 
+    <link rel="stylesheet" href="tyylit.css">
+    <title>Jätskiä</title>
+    <style>
+        body{   
+            background-color:rgb(164, 122, 162);
+            background-size: 100% auto;
+            background-size: cover;
+            background-image: url("kuvat/pinkki.jfif");
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            margin: 0;
+        }
+
+    </style>  
 </head>
 
 <body>
+    <ul class="navigointi_jade">
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="jade.html">Jäde</a></li>
+        <li><a class="active" href="valikoima.html">Valikoima</a></li>
+    </ul> 
 
 <div class="keskitetty">
     <h2>Herkullista jäätelöä!</h2>
     <p>Katso valikoimastamme suosikkisi ja tilaa kotiin!</p>
-   
     <img src="kuvat/j2.png" alt="jäde" width="750px">
-    <style>
-    img {
-        max-width: 100%; 
-        height: auto; 
-    }
-    </style>
+
+    <form>
+        <label> Syötä tekstiä</label>
+        <input type = "text">
+        <label> Select the radio button</label>
+        <input type="radio">
+        <label> Check the box</label>
+        <input type="checkbox">
+    </form>
 </div>
 
-
-<form>
-    <label> Syötä tekstiä</label>
-    <input type = "text">
-    <label> Select the radio button</label>
-    <input type="radio">
-    <label> Check the box</label>
-    <input type="checkbox">
-</form>
-</body>
 <footer>
     <div class="alaosa_jade">
         <p>Jaden jäde Oy</p>
@@ -61,4 +51,5 @@ body{
         <p>Y-tunnus:1234567-8</p>
     </div>
 </footer>
+</body>
 </html>
