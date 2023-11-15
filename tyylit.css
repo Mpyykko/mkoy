@@ -180,3 +180,7 @@ li a:hover {
     display: flex;
     justify-content: center;
 }
+.responsiivinen_kuva {
+    max-width: 100%;
+    height: auto;
+}
