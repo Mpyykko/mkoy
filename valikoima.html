@@ -7,19 +7,23 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik"> 
     <link rel="stylesheet" href="tyylit.css">
     <title>Jätskiä</title>
-    <style>
-        body{   
-            background-color:rgb(164, 122, 162);
-            background-size: 100% auto;
-            background-size: cover;
-            background-image: url("kuvat/pinkki.jfif");
-            background-attachment: scroll;
-            background-repeat: no-repeat;
-            margin: 0;
-        }
-
-    </style>  
+    
 </head>
+<style>
+    body{   
+        background-color:rgb(164, 122, 162);
+        background-size: cover;
+        background-image: url("kuvat/pinkki.jfif");
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+</style>
+
 
 <body>
     <ul class="navigointi_jade">
@@ -28,28 +32,35 @@
         <li><a class="active" href="valikoima.html">Valikoima</a></li>
     </ul> 
 
-<div class="keskitetty">
-    <h2>Herkullista jäätelöä!</h2>
-    <p>Katso valikoimastamme suosikkisi ja tilaa kotiin!</p>
-    <img src="kuvat/j2.png" alt="jäde" width="750px" class="resposiivinen_kuva">
-
-    <form>
-        <label> Syötä tekstiä</label>
-        <input type = "text">
-        <label> Valitse ympyrä</label>
-        <input type="radio">
-        <label> tai neliö</label>
-        <input type="checkbox">
-    </form>
+    <div class="keskitetty">
+        <h2 style="color: antiquewhite;">Herkullista jäätelöä!</h2>
+        <p style="color: antiquewhite;">Katso valikoimastamme suosikkisi ja tilaa kotiin!</p>
+    
+        <img src="kuvat/j2.png" alt="jäde" width="500px">
+        <style>
+            img {
+                max-width: 100%; 
+                height: auto; 
+            }
+            </style>
+    
 </div>
+<button type="button" class="painike_jade" onclick="tulostaViesti()">Tilaa tästä jätskiä!</button>
+<script>
+    function tulostaViesti() {
+        alert("Nam nam :)");
+}
+</script>
+
+    <footer>
+        <div class="alaosa_jade">
+            <p>Jaden jäde Oy</p>
+            <p>Hattaratie 1</p>
+            <p>00100 Helsinki</p>
+            <p>Y-tunnus:1234567-8</p>
+        </div>
+    </footer>
 </body>
-<footer>
-    <div class="alaosa_jade">
-        <p>Jaden jäde Oy</p>
-        <p>Hattaratie 1</p>
-        <p>00100 Helsinki</p>
-        <p>Y-tunnus:1234567-8</p>
-    </div>
-</footer>
+
 
 </html>

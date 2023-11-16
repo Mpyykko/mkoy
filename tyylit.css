@@ -86,6 +86,7 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
     text-decoration: none;
     border: 2px solid #bbb;
     border-radius: 5px;
+    margin: auto;
 
 }
 .painike:hover {
@@ -111,6 +112,7 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
     position: absolute;
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
 }
 .alaosa_jade{
     background-color: rgb(181, 60, 60, 0.6);
@@ -120,7 +122,7 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
     position: absolute;
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
-    bottom:0;
+    margin-top: 100px;
 }
 .painike_jade {
     background-color: rgba(206, 7, 7, 0.6);
@@ -134,6 +136,7 @@ p,h2,h3,h4,h5,h6,ul,ol,dl{
     text-decoration: none;
     border: 2px solid rgba(220, 7, 7, 0.6);
     border-radius: 5px;
+    margin: auto;
 
 
 }
@@ -179,8 +182,4 @@ li a:hover {
 .keskita{
     display: flex;
     justify-content: center;
-}
-.responsiivinen_kuva {
-    max-width: 100%;
-    height: auto;
 }

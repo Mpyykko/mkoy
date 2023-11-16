@@ -10,12 +10,14 @@
 <style>
     body{   
         background-color:rgb(164, 122, 162);
-        background-size: 100% auto;
         background-size: cover;
         background-image: url("kuvat/pinkki.jfif");
         background-attachment: scroll;
         background-repeat: no-repeat;
         margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
 
 </style>
@@ -34,7 +36,13 @@
         <h2 style="color: antiquewhite;">Herkullista jäätelöä!</h2>
         <p style="color: antiquewhite;">Katso valikoimastamme suosikkisi ja tilaa kotiin!</p>
     
-        <img src="kuvat/j1.png" alt="jäde" width="750px" class="resposiivinen_kuva">
+        <img src="kuvat/kolme.webp" alt="jäde" width="500px">
+        <style>
+            img {
+                max-width: 100%; 
+                height: auto; 
+            }
+            </style>
     
     </div>
         
@@ -45,15 +53,15 @@
         }
         </script>
     
-   
+    <footer>
+        <div class="alaosa_jade">
+            <p>Jaden jäde Oy</p>
+            <p>Hattaratie 1</p>
+            <p>00100 Helsinki</p>
+            <p>Y-tunnus:1234567-8</p>
+        </div>
+    </footer>  
 </body>
-<footer>
-    <div class="alaosa_jade">
-        <p>Jaden jäde Oy</p>
-        <p>Hattaratie 1</p>
-        <p>00100 Helsinki</p>
-        <p>Y-tunnus:1234567-8</p>
-    </div>
-</footer>
+
 
 </html>
