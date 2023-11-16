@@ -190,3 +190,7 @@ li a:hover {
     background-repeat: no-repeat;
     z-index: 1; /* Aseta korkeampi z-indeksi kuin bodylla (joka on 0) */
 }
+
+.tyhjaa_tilaa{
+    margin: 100px;
+}
